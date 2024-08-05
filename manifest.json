@@ -9,5 +9,18 @@
   },
   "permissions": [
     "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/watch*"
+      ],
+      "css": [
+        "./styles/content.styles.css"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
   ]
 }

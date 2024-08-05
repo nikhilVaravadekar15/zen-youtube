@@ -1,0 +1,16 @@
+/* Hide everything except the video player */
+#start,  /* hamburger icon and youtube icon */
+#center,  /* search bar */
+#end,  /* create, notifications and user icon */ 
+#panels,
+#chat-container,
+#donation-shelf,
+#related, /* recommendations */ 
+#comments  /* comments section */ {
+  display: none !important;
+}
+
+.youtube-zen-mode {
+  background: #000;
+  color: #fff;
+}
