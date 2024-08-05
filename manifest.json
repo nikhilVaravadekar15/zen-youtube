@@ -5,7 +5,7 @@
   "description": "Blocks everything on YouTube except the video player",
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "favicon.png"
+    "default_icon": "./assets/favicon.png"
   },
   "permissions": [
     "activeTab"
