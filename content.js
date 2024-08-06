@@ -5,3 +5,4 @@ function applyFocusMode() {
 
 // Apply focus mode when the page loads
 applyFocusMode();
+console.log('%c https://github.com/nikhilVaravadekar15/zenmode-youtube', 'background: black; color: white; font-size:16px;');
