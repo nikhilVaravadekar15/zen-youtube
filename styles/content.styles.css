@@ -2,9 +2,10 @@
 #start,  /* hamburger icon and youtube icon */
 #center,  /* search bar */
 #end,  /* create, notifications and user icon */ 
-#panels,
-#chat-container,
-#donation-shelf,
+#panels, /* right side bar ads section */
+#chat-container, /* right side stram chats section */
+#donation-shelf, /* right side bar donation section */
+#guide-inner-content, /* shorts sidebar */
 #related, /* recommendations */ 
 #comments  /* comments section */ {
   display: none !important;

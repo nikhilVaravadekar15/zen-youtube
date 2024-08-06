@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "zenmode-youtube",
   "version": "1.0",
-  "description": "Blocks everything on YouTube except the video player",
+  "description": "zenmode-youtube is a chrome extension designed to create a distraction-free viewing experience on YouTube.",
   "action": {
     "default_popup": "popup.html",
     "default_icon": "./assets/favicon.png"
@@ -13,7 +13,8 @@
   "content_scripts": [
     {
       "matches": [
-        "*://www.youtube.com/watch*"
+        "*://www.youtube.com/watch*",
+        "*://www.youtube.com/shorts*"
       ],
       "css": [
         "./styles/content.styles.css"
