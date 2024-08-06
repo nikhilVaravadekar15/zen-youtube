@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "zen-youtube",
+  "name": "zenmode-youtube",
   "version": "1.0",
   "description": "Blocks everything on YouTube except the video player",
   "action": {
